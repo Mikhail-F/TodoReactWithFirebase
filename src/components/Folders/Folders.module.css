@@ -1,0 +1,196 @@
+.folders{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+.folderPlace{
+    flex-basis: 30%;
+    border-right: 1px solid #F1F1F1;
+    background: #f4f6f8;
+    padding: 40px 30px;
+    max-width: 283px;
+}
+
+.allTask{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.addFolder{
+    color: #767676;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    margin-top: 45px;
+}
+
+.circles{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0
+}
+
+.circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 2px
+}
+
+.circleActive{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 2px solid #525252;
+    cursor: pointer;
+    margin: 0 2px
+}
+
+.circleFolder{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.linkFolder{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.activeFolder{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.allLeft{
+    width: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 9px;
+}
+
+.allLLeft{
+    width: 5px;
+}
+
+.allLRight{
+    width: 9px;
+}
+
+.allLLeft div{
+    background: #7C7C7C;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 3px;
+    border-radius: 2px;
+}
+
+.allLRight div{
+    background: #7C7C7C;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 3px;
+    border-radius: 2px;
+}
+
+.allLRight .allLRightCenter{
+    width: 80%;
+}
+
+.removeFolder{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #E3E3E3;
+    font-weight: 500;
+}
+
+.folderText{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.closeAddFolder{
+    background: #5C5C5C;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -7px;
+    right: -7px;
+}
+
+.innerShowFolder{
+    position: relative;
+}
+
+.showAddFolder{
+    background: white;
+    padding: 18px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    margin-top: 15px;
+}
+
+.btnAddFolder{
+    width: 100%;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    background: #4DD599;
+    border-radius: 4px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.inputTextFolder{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+}
+
+.inputTextFolder:focus{
+    outline: 1px solid #cecece;
+    outline-style: auto;
+}
+
+.folder{
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.changePlace{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameFolder{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 121px;
+}
